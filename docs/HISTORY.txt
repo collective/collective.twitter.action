@@ -1,0 +1,9 @@
+Changelog
+=========
+
+1.0
+---
+
+- Added a content rule action that will use an account created using collective.twitter.accounts [frapell]
+
+- Initial release

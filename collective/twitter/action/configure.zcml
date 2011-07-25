@@ -1,0 +1,38 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:five="http://namespaces.zope.org/five"
+    i18n_domain="collective.twitter.action">
+
+    <include package="plone.contentrules" />
+    <include package="plone.contentrules" file="meta.zcml" />
+
+    <adapter factory=".twitter_action.TwitterPublishActionExecutor" />
+
+    <browser:page 
+      for="plone.app.contentrules.browser.interfaces.IRuleActionAdding"
+      name="collective.twitter.action.TwitterPublishAction"
+      class=".twitter_action.TwitterPublishActionAddForm"
+      permission="cmf.ManagePortal"
+      />
+
+    <browser:page 
+      for="collective.twitter.action.twitter_action.ITwitterPublishAction"
+      name="edit"
+      class=".twitter_action.TwitterPublishActionEditForm"
+      permission="cmf.ManagePortal"
+      />
+
+    <plone:ruleAction
+        name="collective.twitter.action.TwitterPublishAction"
+        title="Publish object to twitter"
+        description="Publish a tweet containing object's title an a shot URL to it."
+        for="*"
+        event="zope.component.interfaces.IObjectEvent"
+        addview="collective.twitter.action.TwitterPublishAction"
+        editview="edit"
+        schema=".twitter_action.ITwitterPublishAction"
+        factory=".twitter_action.TwitterPublishAction"
+        />
+</configure>
