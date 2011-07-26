@@ -1,0 +1,65 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# Franco Pellegrini, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2011-07-26 00:05+0000\n"
+"PO-Revision-Date: 2011-07-25 21:06-0300\n"
+"Last-Translator: Franco Pellegrini\n"
+"Language-Team: Spanish <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collective.twitter.action\n"
+"Language: es\n"
+"X-Generator: Lokalize 1.2\n"
+
+#: ../twitter_action.py:132
+msgid ""
+"Could not publish to twitter, seems the account %s was removed from the list "
+"of authorized accounts for this site."
+msgstr ""
+"No se pudo publicar a Twitter, parece que la cuenta %s fue quitada de la "
+"lista de cuentas autenticadas para este sitio."
+
+#: ../twitter_action.py:158
+msgid "Edit publish to Twitter action."
+msgstr "Editar acción de publicar a Twitter."
+
+#: ../twitter_action.py:124
+msgid "Error while publishing to twitter %s"
+msgstr "Error al publicar en Twitter %s"
+
+#: ../twitter_action.py:122
+msgid "Item published to twitter"
+msgstr "Item publicado en Twitter"
+
+#: ../twitter_action.py:146
+msgid "Publish a title and short URL to Twitter"
+msgstr "Publicar el título y una URL corta a Twitter."
+
+#: ../twitter_action.py:145
+msgid "Publish to Twitter action."
+msgstr "Acción de publicar a Twitter."
+
+#: ../twitter_action.py:147
+msgid "Select account"
+msgstr "Seleccione cuenta"
+
+#: ../twitter_action.py:56
+msgid "Twitter account"
+msgstr "Cuenta de Twitter"
+
+#: ../twitter_action.py:84
+msgid "Twitter account: ${user}"
+msgstr "Cuenta de Twitter: ${user}"
+
+#: ../twitter_action.py:57
+msgid "Which twitter account to use."
+msgstr "Que cuenta Twitter utilizar"
+
+

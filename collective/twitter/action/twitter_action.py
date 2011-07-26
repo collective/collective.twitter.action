@@ -55,7 +55,7 @@ class ITwitterPublishAction(Interface):
     
     tw_account = schema.Choice(title=_(u'Twitter account'),
                                   description=_(u"Which twitter account to use."),
-                                  required=False,
+                                  required=True,
                                   source=TwitterAccounts)
 
 #    
@@ -142,9 +142,9 @@ class TwitterPublishActionAddForm(AddForm):
     """An add form for portal type conditions.
     """
     form_fields = form.FormFields(ITwitterPublishAction)
-    label = _(u"Add Twitter config")
-    description = _(u"Your Twitter account information.")
-    form_name = _(u"Configure element")
+    label = _(u"Publish to Twitter action.")
+    description = _(u"Publish a title and short URL to Twitter")
+    form_name = _(u"Select account")
 
     def create(self, data):
         c = TwitterPublishAction()
@@ -155,7 +155,7 @@ class TwitterPublishActionEditForm(EditForm):
     """An edit form for portal type conditions
     """
     form_fields = form.FormFields(ITwitterPublishAction)
-    label = _(u"Edit Twitter Condition")
-    description = _(u"Your Twitter account information.")
-    form_name = _(u"Configure element")
+    label = _(u"Edit publish to Twitter action.")
+    description = _(u"Publish a title and short URL to Twitter")
+    form_name = _(u"Select account")
  

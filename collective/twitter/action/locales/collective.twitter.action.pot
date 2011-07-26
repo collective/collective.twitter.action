@@ -1,0 +1,59 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-07-26 00:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collective.twitter.action\n"
+
+#: ../twitter_action.py:132
+msgid "Could not publish to twitter, seems the account %s was removed from the list of authorized accounts for this site."
+msgstr ""
+
+#: ../twitter_action.py:158
+msgid "Edit publish to Twitter action."
+msgstr ""
+
+#: ../twitter_action.py:124
+msgid "Error while publishing to twitter %s"
+msgstr ""
+
+#: ../twitter_action.py:122
+msgid "Item published to twitter"
+msgstr ""
+
+#: ../twitter_action.py:146
+msgid "Publish a title and short URL to Twitter"
+msgstr ""
+
+#: ../twitter_action.py:145
+msgid "Publish to Twitter action."
+msgstr ""
+
+#: ../twitter_action.py:147
+msgid "Select account"
+msgstr ""
+
+#: ../twitter_action.py:56
+msgid "Twitter account"
+msgstr ""
+
+#: ../twitter_action.py:84
+msgid "Twitter account: ${user}"
+msgstr ""
+
+#: ../twitter_action.py:57
+msgid "Which twitter account to use."
+msgstr ""
+
