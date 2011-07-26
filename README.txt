@@ -7,4 +7,5 @@ Usage
 =====
 
 Simply add this product to your buildout and the new action should be available.
-You need to have at least one twitter account authorized for the current site.
+You need to have at least one twitter account authorized for the current site, to do so, read the documentation for a dependency of this package http://pypi.python.org/pypi/collective.twitter.accounts
+
