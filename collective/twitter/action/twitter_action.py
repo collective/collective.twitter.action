@@ -8,7 +8,7 @@ from zope import schema
 from zope.schema.vocabulary import SimpleVocabulary
 from z3c.form import interfaces
 
-from zope.app.component.hooks import getSite
+from zope.component.hooks import getSite
 from Products.CMFCore.utils import getToolByName
 from zope.component import getUtility
 from plone.registry.interfaces import IRegistry
