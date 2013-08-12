@@ -4,7 +4,7 @@ Changelog
 1.0.2 (unreleased)
 -----
 
-- Update import patch of zope.component.hooks to make this works in Plone4.2 [mkrishtopa]
+- Updated import patch of zope.component.hooks to make this works in Plone4.2 [mkrishtopa]
 
 1.0.1
 -----
